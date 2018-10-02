@@ -1,5 +1,6 @@
 let num = parseFloat(prompt('Enter a number'));
 let numFibb = [1, 1];
+
 // for (let i = 2; i < num; i++) {
 //     let j = numFibb[numFibb.length - 2];
 //     let k = numFibb[numFibb.length - 1];
@@ -27,6 +28,15 @@ let numFibb = [1, 1];
 
 // for (let i = 2; i < num; i++) {
 // let sum= numFibb.reduce( (acc, el) => acc + el )
-//     numFibb.splice(0, 2,numFibb[1], sum)
+// numFibb.splice(0, 2,numFibb[1], sum)
+//  }
+// numFibb.shift();
+// document.write(numFibb);
+
+// function fBine (){
+//     const phi= ((1+Math.sqrt(5))/2);
+//     const n= Math.pow(phi, num)/Math.sqrt(5);
+//     return Math.round(n);
 // }
-// alert(numFibb[numFibb.length - 1])
+// alert(fBine());
+ 
