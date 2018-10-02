@@ -1,9 +1,32 @@
 let num = parseFloat(prompt('Enter a number'));
 let numFibb = [1, 1];
-for (let i = 2; i < num; i++) {
-    let r = numFibb[numFibb.length - 2];
-    let k = numFibb[numFibb.length - 1];
-    let m = r + k;
-    numFibb.push(m);
-}
-alert(numFibb[numFibb.length - 1]);
+// for (let i = 2; i < num; i++) {
+//     let j = numFibb[numFibb.length - 2];
+//     let k = numFibb[numFibb.length - 1];
+//     let r = j + k;
+//     numFibb.push(r);
+// }
+// alert(numFibb[numFibb.length - 1]);
+
+
+// for (let i = 2; i < num; i++) {
+//     let m = numFibb[0] + numFibb[1];
+//     numFibb.splice(0, 2,numFibb[1], m)
+// }
+// alert(numFibb[numFibb.length - 1]);
+
+
+// do {
+//     let j = numFibb[numFibb.length - 2];
+//     let k = numFibb[numFibb.length - 1];
+//     let r = j + k;
+//     numFibb.push(r);
+// } while (numFibb.length<num)
+// alert(numFibb[numFibb.length - 1]);
+
+
+// for (let i = 2; i < num; i++) {
+// let sum= numFibb.reduce( (acc, el) => acc + el )
+//     numFibb.splice(0, 2,numFibb[1], sum)
+// }
+// alert(numFibb[numFibb.length - 1])
