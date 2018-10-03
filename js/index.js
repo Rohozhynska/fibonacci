@@ -1,12 +1,10 @@
 let num = parseFloat(prompt('Enter a number'));
 let numFibb = [1, 1];
-function first(num,numFibb){
 for (let i = 2; i < num; i++) {
     let r = numFibb[numFibb.length - 2] + numFibb[numFibb.length - 1];
     numFibb.push(r);
-}}
+}
 alert(numFibb[numFibb.length - 1]);
-first(num,numFibb);
 
 // for (let i = 2; i < num; i++) {
 //     let m = numFibb[0] + numFibb[1];
